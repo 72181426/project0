@@ -1,0 +1,32 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {"type":"Feature","properties":{"name":"Acre"},"geometry":{"type":"Polygon","coordinates":[[[-74, -9],[-72, -9],[-72, -11],[-74, -11],[-74, -9]]]}},
+    {"type":"Feature","properties":{"name":"Amapa"},"geometry":{"type":"Polygon","coordinates":[[[-52, 3],[-50, 3],[-50, 1],[-52, 1],[-52, 3]]]}},
+    {"type":"Feature","properties":{"name":"Amazonas"},"geometry":{"type":"Polygon","coordinates":[[[-70, -2],[-60, -2],[-60, -8],[-70, -8],[-70, -2]]]}},
+    {"type":"Feature","properties":{"name":"Para"},"geometry":{"type":"Polygon","coordinates":[[[-56, 2],[-48, 2],[-48, -4],[-56, -4],[-56, 2]]]}},
+    {"type":"Feature","properties":{"name":"Rondonia"},"geometry":{"type":"Polygon","coordinates":[[[-66, -9],[-62, -9],[-62, -13],[-66, -13],[-66, -9]]]}},
+    {"type":"Feature","properties":{"name":"Roraima"},"geometry":{"type":"Polygon","coordinates":[[[-62, 5],[-58, 5],[-58, 1],[-62, 1],[-62, 5]]]}},
+    {"type":"Feature","properties":{"name":"Tocantins"},"geometry":{"type":"Polygon","coordinates":[[[-50, -5],[-46, -5],[-46, -10],[-50, -10],[-50, -5]]]}},
+    {"type":"Feature","properties":{"name":"Alagoas"},"geometry":{"type":"Polygon","coordinates":[[[-38, -9],[-36, -9],[-36, -11],[-38, -11],[-38, -9]]]}},
+    {"type":"Feature","properties":{"name":"Bahia"},"geometry":{"type":"Polygon","coordinates":[[[-44, -8],[-38, -8],[-38, -15],[-44, -15],[-44, -8]]]}},
+    {"type":"Feature","properties":{"name":"Ceara"},"geometry":{"type":"Polygon","coordinates":[[[-42, -2],[-38, -2],[-38, -6],[-42, -6],[-42, -2]]]}},
+    {"type":"Feature","properties":{"name":"Maranhao"},"geometry":{"type":"Polygon","coordinates":[[[-48, -1],[-44, -1],[-44, -6],[-48, -6],[-48, -1]]]}},
+    {"type":"Feature","properties":{"name":"Paraiba"},"geometry":{"type":"Polygon","coordinates":[[[-38, -6],[-36, -6],[-36, -8],[-38, -8],[-38, -6]]]}},
+    {"type":"Feature","properties":{"name":"Pernambuco"},"geometry":{"type":"Polygon","coordinates":[[[-40, -7],[-34, -7],[-34, -10],[-40, -10],[-40, -7]]]}},
+    {"type":"Feature","properties":{"name":"Piaui"},"geometry":{"type":"Polygon","coordinates":[[[-44, -4],[-40, -4],[-40, -10],[-44, -10],[-44, -4]]]}},
+    {"type":"Feature","properties":{"name":"Rio Grande do Norte"},"geometry":{"type":"Polygon","coordinates":[[[-38, -4],[-36, -4],[-36, -6],[-38, -6],[-38, -4]]]}},
+    {"type":"Feature","properties":{"name":"Sergipe"},"geometry":{"type":"Polygon","coordinates":[[[-38, -10],[-36, -10],[-36, -12],[-38, -12],[-38, -10]]]}},
+    {"type":"Feature","properties":{"name":"Espirito Santo"},"geometry":{"type":"Polygon","coordinates":[[[-41, -18],[-39, -18],[-39, -21],[-41, -21],[-41, -18]]]}},
+    {"type":"Feature","properties":{"name":"Minas Gerais"},"geometry":{"type":"Polygon","coordinates":[[[-48, -16],[-42, -16],[-42, -22],[-48, -22],[-48, -16]]]}},
+    {"type":"Feature","properties":{"name":"Rio de Janeiro"},"geometry":{"type":"Polygon","coordinates":[[[-44, -21],[-42, -21],[-42, -23],[-44, -23],[-44, -21]]]}},
+    {"type":"Feature","properties":{"name":"Sao Paulo"},"geometry":{"type":"Polygon","coordinates":[[[-52, -20],[-44, -20],[-44, -25],[-52, -25],[-52, -20]]]}},
+    {"type":"Feature","properties":{"name":"Parana"},"geometry":{"type":"Polygon","coordinates":[[[-54, -22],[-48, -22],[-48, -27],[-54, -27],[-54, -22]]]}},
+    {"type":"Feature","properties":{"name":"Santa Catarina"},"geometry":{"type":"Polygon","coordinates":[[[-54, -26],[-50, -26],[-50, -29],[-54, -29],[-54, -26]]]}},
+    {"type":"Feature","properties":{"name":"Rio Grande do Sul"},"geometry":{"type":"Polygon","coordinates":[[[-57, -28],[-50, -28],[-50, -33],[-57, -33],[-57, -28]]]}},
+    {"type":"Feature","properties":{"name":"Goias"},"geometry":{"type":"Polygon","coordinates":[[[-52, -14],[-46, -14],[-46, -18],[-52, -18],[-52, -14]]]}},
+    {"type":"Feature","properties":{"name":"Mato Grosso"},"geometry":{"type":"Polygon","coordinates":[[[-60, -10],[-52, -10],[-52, -17],[-60, -17],[-60, -10]]]}},
+    {"type":"Feature","properties":{"name":"Mato Grosso do Sul"},"geometry":{"type":"Polygon","coordinates":[[[-58, -17],[-52, -17],[-52, -23],[-58, -23],[-58, -17]]]}},
+    {"type":"Feature","properties":{"name":"Distrito Federal"},"geometry":{"type":"Polygon","coordinates":[[[-48, -15],[-47, -15],[-47, -16],[-48, -16],[-48, -15]]]}}
+  ]
+}
