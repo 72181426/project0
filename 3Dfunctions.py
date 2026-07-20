@@ -1,4 +1,6 @@
 import numpy as np
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
@@ -61,5 +63,65 @@ def graficar_funciones_3d():
     fig.show()
 
 
+def graficar_sinc_stationary():
+    """Grafica la superficie sinc con el punto estacionario en (0, 0) usando matplotlib."""
+    x = np.linspace(-3, 3, 180)
+    y = np.linspace(-3, 3, 180)
+    X, Y = np.meshgrid(x, y)
+    R = np.sqrt(X**2 + Y**2)
+    Z = np.where(R == 0, 1.0, np.sin(R) / R)
+
+    fig = plt.figure(figsize=(10, 8))
+    ax = fig.add_subplot(111, projection='3d')
+
+    cmap = plt.get_cmap('jet')
+    norm = plt.Normalize(Z.min(), Z.max())
+    facecolors = cmap(norm(Z))
+
+    ax.plot_surface(
+        X,
+        Y,
+        Z,
+        rstride=1,
+        cstride=1,
+        facecolors=facecolors,
+        linewidth=0.15,
+        antialiased=True,
+        shade=False,
+        edgecolor='k'
+    )
+
+    ax.plot([-3, 3], [0, 0], [1, 1], color='black', linewidth=3)
+    ax.plot([0, 0], [-3, 3], [1, 1], color='black', linewidth=3)
+    ax.text(0, 0, 1.05, '(0,0)', color='black', fontsize=12, horizontalalignment='center')
+
+    ax.set_xticks([-3, -1, 1, 3])
+    ax.set_yticks([-3, -1, 1, 3])
+    ax.set_zticks([-0.5, 0, 0.5, 1.0, 1.2])
+    ax.set_facecolor('white')
+
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+    ax.xaxis.pane.fill = False
+    ax.yaxis.pane.fill = False
+    ax.zaxis.pane.fill = False
+    ax.xaxis.pane.set_edgecolor('black')
+    ax.yaxis.pane.set_edgecolor('black')
+    ax.zaxis.pane.set_edgecolor('black')
+
+    ax.set_xlabel('')
+    ax.set_ylabel('')
+    ax.set_zlabel('')
+
+    fig.text(0.12, 0.06, 'Figure : (0,0) is a stationary point of this f', fontsize=16, color='#3b4cc0')
+    fig.suptitle('', fontsize=18)
+    fig.tight_layout(rect=[0, 0.03, 1, 0.97])
+
+    output_file = 'grafica_sinc_estacionaria.png'
+    fig.savefig(output_file, dpi=150, facecolor='white')
+    print(f'Gráfica guardada en {output_file}')
+    plt.show()
+
+
 if __name__ == '__main__':
-    graficar_funciones_3d()
+    graficar_sinc_stationary()
